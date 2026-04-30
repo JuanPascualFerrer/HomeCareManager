@@ -1,0 +1,19 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace ConsoleApp1
+{
+    public class Incident
+    {
+        public string IncidentId { get; set; } = string.Empty;
+        public string Description { get; set; } = string.Empty;
+        public DateTime CreatedAt { get; set; }
+        public string Status { get; set; } = string.Empty;
+
+        // Foreign keys
+        public string UserId { get; set; } = string.Empty;
+        public string TaskId { get; set; } = string.Empty;
+    }
+}
+
