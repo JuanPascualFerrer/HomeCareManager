@@ -9,7 +9,7 @@ namespace ConsoleApp1
             "datasource = 127.0.0.1;" +
             "port = 3306;" +
             "username = root; password = ;" +
-            "database = HomeCareManager";
+            "database = homecaremanager";
 
         private bool Insert(string query)
         {
